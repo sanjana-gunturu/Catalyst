@@ -1,0 +1,132 @@
+.bg{
+    height:100%;
+    background-image: url("img.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.loginn{
+    display:inline;
+    float:right;
+    position: relative;
+    
+    top:3rem;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.aboutus{
+    display:inline;
+    float: right;
+    position: relative;
+    right:0.5rem;
+    top:3rem;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+h1{
+    display: block;
+    margin:auto;
+    color:white;
+    font-family: 'Cinzel decorative',cursive;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -220px;
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
+/*for small screen devices(mobiles)*/
+
+@media screen and (min-width:200px) and (max-width:480px)
+{
+    h1{
+        font-size:4rem;
+        padding-left: 4rem;
+    }
+    .loginn{
+        font-size:1.2rem;
+        right:15rem;
+    }
+    .aboutus{
+        font-size:1.2rem;
+        padding-left:10rem;
+        
+    }
+    .bg{
+        height:100%;
+        background-image: url("img.jpg");
+        background-size:cover;
+        background-repeat:no-repeat;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+
+}
+/*for ipad mini*/
+
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+    h1{
+        font-size:6rem;
+    }
+    .loginn{
+        font-size:2rem;
+        right:20rem;
+    }
+    .aboutus{
+        font-size:2rem;
+        right:1rem;
+        
+    }
+    
+}
+/*for small screens and laptops*/
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+    h1{
+        font-size:6rem;
+    }
+    .loginn{
+        font-size:2rem;
+        right:20rem;
+        
+    }
+    .aboutus{
+        font-size:2rem;
+    }
+}
+
+/*for large screen devices*/
+@media screen and (min-width:1025px)
+{
+    h1{
+        margin-top: -60px;
+        margin-left: -220px;
+        font-size:6rem;
+    }
+    .loginn{
+        right:15rem;
+    }
+}

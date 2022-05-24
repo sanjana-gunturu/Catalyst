@@ -1,0 +1,208 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css";
+.container{
+    color: white;
+    position: relative;
+    top:100px;
+    display: block;
+    text-align: center;
+
+}
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration-line: underline;
+}
+a:visited{
+    color:white;
+}
+a{
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+    font-size:small;
+}
+.form-label{
+    color:white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 20px;
+}
+body,html{
+    height:100%;
+}
+*{
+    margin:0%;
+    padding:0%;
+}
+.bg{
+    height:100%;
+    background-image: url("img.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Cinzel decorative',cursive;
+    
+    position:relative;
+    top:50px;
+    opacity: 10px;
+    font-size: 60px;
+}
+.home{
+    display:block;
+    text-align: end;
+    position: relative;
+    font-family: 'Cinzel decorative',cursive;
+    color:white;
+   
+}
+.forgotpw{
+    display: block;
+    text-align: center;
+    
+}
+.button{
+    font-size:larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+i{
+    color:white;
+}
+.username{
+    font-size: x-large;
+}
+.password{
+    font-size: x-large;
+}
+.form-holder
+{
+    width:100%;
+    max-width: 400px;
+    padding:30px;
+    background:rgba(220,220,220,.5);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1),0 2px 2px 0 rgba(0,0,0,0.1);
+    margin:auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+h1{
+    padding-bottom: 80px;
+   
+}
+.submitbtn{
+    color:#0a051b;
+    padding:5px 20px;
+    border-style: none;
+}
+/*for small screen devices(mobiles)*/
+
+@media screen and (min-width:200px) and (max-width:480px)
+{
+    .home{
+        font-size: 1.3rem;
+        display: inline;
+        top:3rem;
+        left:16rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+
+}
+/*for ipad mini*/
+
+@media screen and (min-device-width:481px) and (max-device-width:768px)
+{
+    .home{
+        display: inline;
+        left:40rem;
+        top:2rem;
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    .form-holder{
+        width:100%;
+        max-width: 565px;
+    }
+    .username{
+        font-size: 2.1rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.1rem;
+       
+    }
+    .password{
+        font-size: 2.1rem;
+    }
+    .button{
+        font-size: 2.2rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.1rem;
+    }
+    .forgotpw{
+        font-size: 2rem;
+    }
+    
+}
+/*for small screens and laptops*/
+@media screen and (min-device-width:769px) and (max-device-width:1024px)
+{
+    h1{
+        font-size: 6.1rem;
+        padding-right: 0.9rem;
+        padding-bottom: 8.8rem;
+       
+    }
+    .home{
+        text-align: end;
+        right:35px;
+        font-size: 2.8rem;
+    }
+    .form-holder{
+        width:100%;
+        max-width: 625px;
+    }
+    .username{
+        font-size: 2.6rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.1rem;
+       
+    }
+    .password{
+        font-size: 2.6rem;
+    }
+    .button{
+        font-size: 2.5rem;
+        padding-top: 1.3rem;
+        padding-bottom: 1.1rem;
+    }
+    .forgotpw{
+        font-size: 2.4rem;
+    }
+   
+}
+
+/*for large screen devices*/
+@media screen and (min-width:1025px)
+{
+    .home{
+        right:80px;
+        top:40px;
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    .forgotpw{
+        font-size: 1.2rem;
+    }
+}
